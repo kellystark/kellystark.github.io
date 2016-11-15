@@ -203,8 +203,6 @@ img {
     background-color: none;
     height: 100%;
     flex-wrap: wrap;
-    
-   
 }
 
 .indBox {
@@ -213,14 +211,11 @@ img {
     box-flex: 1;
     -webkit-flex: 1 1 auto;
     flex: 1 1 auto;
-    
     padding: 10px;
     margin: 10px;
     
     background-color: rgba(121,114,91,0.2);
     text-align: center;
-    
-    
 }
 
 #image1 {
@@ -546,6 +541,20 @@ section .row img {
     .mainWrapper{
     font-size: 2vh;
     }
+    
+    .mainWrapperOne{
+    width:85vw; 
+    font-size: 2vh;
+    }
+    
+    #image3 {
+    height: 200px;
+    margin: 0 0 10px 10px;
+    float: left;
+    
+}
+    
+
 }
 
 @media screen and (max-width: 500px) {
@@ -579,12 +588,26 @@ section .row img {
     
     #image2 {
     height: 200px;
-    margin-right: 15vw;
+    margin-right:5vw;
     }
     
     #image3 {
-    height: 125px;
+    height: 105px;
     margin-right: 6vw;
+    }
+    
+    .mainWrapperOne{
+    width:85vw; 
+    font-size: 2vh;
+    }
+    
+    .indBox {
+    padding: 4px;
+    margin: 4px;
+    }
+    
+    .indBox h1 {
+        font-size: 1.5em;
     }
 }
 
