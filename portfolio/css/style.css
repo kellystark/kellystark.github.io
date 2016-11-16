@@ -18,15 +18,15 @@ body {
     position: fixed;
     color: white;
     font-size: 1.9vh;
-    margin-top: 8vh;
-    margin-left: -5vw;
+    margin-top: 11vh;
+    margin-left: -14vw;
 }
 
 .navigation {
     position: fixed;
     background-color: rgb(121,114,91);
 	box-shadow:0 1px 1px #ccc;
-	height: 12vh;
+	height: 14vh;
     width: 100%;
 	box-sizing: border-box;
 }
@@ -515,12 +515,12 @@ section .row img {
     position: fixed;
     color: white;
     font-size: .9vh;
-    margin-top: 4.0vh;
+    margin-top: 6.2vh;
     margin-left: -9vw;
     }
     
     .navigation {
-        height: 7vh;
+        height: 9vh;
     }
 
     .video-container .navbar-collapse {
@@ -565,12 +565,12 @@ section .row img {
     
         
     .navbar-brand2 {
-    margin-top: 3.7vh;
+    margin-top: 6.2vh;
     margin-left: -15vw;
     }
     
     .navigation {
-        height: 6vh;
+        height: 8vh;
     }
     
     .navigation .navbar-toggle {
