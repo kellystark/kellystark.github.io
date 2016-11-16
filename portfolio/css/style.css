@@ -570,12 +570,12 @@ section .row img {
 @media screen and (max-width: 500px) {
     .video-container .navbar-brand {
         font-size: 2em;
-        margin-top: 0.5vh;
+        margin-top: -1.3vh;
     }
     
         
     .navbar-brand2 {
-    margin-top: 6.2vh;
+    margin-top: 4.5vh;
     margin-left: -15vw;
     }
     
@@ -612,12 +612,13 @@ section .row img {
     }
     
     p#info {
-        ;
+        
     }
     
     .indBox {
     padding: 4px;
     margin: 4px;
+        
     }
     
     .indBox h1 {
