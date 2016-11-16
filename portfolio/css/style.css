@@ -554,6 +554,16 @@ section .row img {
     
 }
     
+@media screen and (orientation:landscape) {
+    .navigation {
+        height: 10vh;
+    }
+    .navbar-brand2 {
+    margin-top: 8.2vh;
+    margin-left: -15vw;
+    }
+}
+    
 
 }
 
