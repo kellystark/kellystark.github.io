@@ -287,6 +287,16 @@ h1#subtitle {
     text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
+.jumbotron3 {
+    display: flex;
+    align-items: center;
+    background-image: url(../images/AdobeStock_92347389.png);
+    background-size: cover;
+    color: #ffffff;
+    height: 500px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
 .jumbotrzon2 {
     display: flex;
     align-items: center;
@@ -554,7 +564,7 @@ section .row img {
     
 }
     
-@media only all and (min-device-width: 320px) and (max-device-width: 480px) {
+@media screen and (orientation:landscape) {
 
     .navigation {
         height: 10vh;
