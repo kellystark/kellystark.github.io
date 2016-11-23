@@ -254,6 +254,10 @@ body {
     height: 100%;
 }
 
+.container p {
+    color: black;
+}
+
 .background {
     display: -webkit-box;
     display: -moz-box;
