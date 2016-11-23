@@ -71,7 +71,7 @@ h1 {
 }
 
 .navbar-default {
-	background-color: transparent;
+	background-color: white;
 	border-color: transparent;
 }
 
@@ -124,6 +124,23 @@ h1 {
 	color: #ffffff
 }
 
+#divider {
+    background-color: #53bef5;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#divider h4 {
+    font-weight: 400;
+	color: #ffffff;
+    margin: 10vw;
+    line-height: inherit;
+}
+
 #social {
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -132,7 +149,9 @@ h1 {
 
 #social i {
 	font-size: 40px;
-	color: #53bef5
+	color: #53bef5;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #social i:hover {
@@ -207,8 +226,6 @@ h1 {
 }
 
 
-
-
 /* Gallery */
 .gallery {
 	margin-top: 30px;
@@ -216,4 +233,133 @@ h1 {
 
 .gallery img:hover {
 	opacity: 0.4;
+}
+
+/* ==========================================================================
+   MainBox Div
+   ========================================================================== */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+.mainBox {
+    background-color: white;  
+    height: 100%;
+}
+
+.background {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizonal;
+    flex-direction: row;
+    
+    -wekit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    justify-content: center;
+    
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+    align-items: center;
+    
+    background-color: white;
+    height: 100%;
+    flex-wrap: wrap;
+    
+   
+}
+
+.indBox {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+    
+    padding: 10px;
+    margin: 10px;
+    
+    background-color: #53bef5;
+    text-align: center;
+}
+
+p {
+    padding: 5vw;;
+    margin: 
+}
+
+.centered p {
+    padding: 0vw;
+    font-size: 14px;
+    margin: 
+}
+
+#image1 {
+    max-width: 25%;
+    float: left;
+    padding: 20px;
+}
+
+#image2 {
+    max-width: 25%;
+    float: right;
+    padding: 20px;
+}
+
+#image3 {
+    max-width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media screen and (min-width: 600px) {
+    body {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 26px;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #image1 {
+        max-width: 40%;
+    }
+    #image2 {
+        max-width: 40%;
+    }
+    #image3 {
+        max-width: 60%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #image1 {
+        max-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #image1 {
+        max-width: 50%;
+    }
 }
