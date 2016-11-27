@@ -28,6 +28,7 @@
 	text-align: center
 }
 
+
 .mt {
 	margin-top: 80px;
 }
@@ -51,7 +52,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-weight: 700;
+	font-weight: 600;
     color: #4a4a4a;
 }
 
@@ -61,6 +62,9 @@ h1 {
     
 }
 
+h2 {
+    color: white;
+}
 
 .navbar-brand {
 	font-weight: 700;
@@ -117,11 +121,13 @@ h1 {
 	letter-spacing: 4px;
 	font-size: 80px;
 	font-weight: bold;
+    text-shadow: 1px 2px black;
 }
 
 #headerwrap h4 {
 	font-weight: 400;
-	color: #ffffff
+	color: #ffffff;
+    text-shadow: 1px 2px black;
 }
 
 #divider {
@@ -188,6 +194,7 @@ h1 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    text-shadow: 1px 2px black;
 }
 
 #workwrap h1 {
@@ -197,12 +204,62 @@ h1 {
 	letter-spacing: 4px;
 	font-size: 80px;
 	font-weight: bold;
+    text-shadow: 1px 2px black;
 }
 
 #workwrap h4 {
 	font-weight: 400;
-	color: #ffffff
+	color: #ffffff;
+    text-shadow: 1px 2px black;
 }
+
+
+
+
+#workwrap2 {	
+	background: url(../img/UXUI2.png) no-repeat center top;
+	margin-top: 0px;
+	padding-top: 250px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 750px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#workwrap2 h1 {
+	color:#ffffff;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 4px;
+	font-size: 80px;
+	font-weight: bold;
+    text-shadow: 1px 2px black;
+}
+
+#workwrap2 h4 {
+	font-weight: 400;
+	color: #ffffff;
+    text-shadow: 1px 2px black;
+        
+}
+
+
+
+
+
+
+
 
 #aboutwrap {	
 	background: url(../img/portfolioPicture3.jpg) no-repeat center top;
@@ -241,7 +298,7 @@ h1 {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
     color: white;
 
@@ -301,6 +358,10 @@ body {
     text-align: center;
 }
 
+li{
+    text-align: left;
+}
+
 p {
     padding: 5vw;;
     margin: 
@@ -310,6 +371,10 @@ p {
     padding: 0vw;
     font-size: 14px;
     margin: 
+}
+
+.indBox h4 {
+    color: white;
 }
 
 #image1 {
@@ -328,6 +393,47 @@ p {
     max-width: 50%;
     float: left;
     padding: 10px;
+}
+
+#image4 {
+    max-width: 25%;
+    float: right;
+    padding: 20px;
+}
+#image5 {
+    max-width: 25%;
+    float: right;
+    padding: 20px;
+}
+#image6 {
+    max-width: 25%;
+    float: right;
+    padding: 20px;
+}
+#image7 {
+    max-width: 25%;
+    float: right;
+    padding: 20px;
+}
+#image8 {
+    max-width: 25%;
+    float: right;
+    padding: 20px;
+}
+#image9 {
+    max-width: 25%;
+    float: right;
+    padding: 20px;
+}
+#image10 {
+    max-width: 25%;
+    float: right;
+    padding: 20px;
+}
+#image11 {
+    max-width: 25%;
+    float: right;
+    padding: 20px;
 }
 
 
