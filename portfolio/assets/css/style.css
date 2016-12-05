@@ -3,18 +3,6 @@
 @import url(https://fonts.googleapis.com/css?family=Arizonia" rel="stylesheet);
 
 
-::-moz-selection {
-    background: #f2c2c9;
-    color: #a4003a;
-    text-shadow: none;
-}
-
-::selection {
-    background: #16a085;
-    color: #a4003a;
-    text-shadow: none;
-}
-
  hr {
     display: block;
     height: 1px;
@@ -37,16 +25,12 @@
 	margin-bottom: 80px;
 }
 
-/* ==========================================================================
-   General styles
-   ========================================================================== */
+/* General styles */
 
 
 body {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-
+    
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
@@ -59,7 +43,6 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-family: 'Arizonia', cursive;
     color: #53bef5;
-    
 }
 
 h2 {
@@ -67,26 +50,26 @@ h2 {
 }
 
 .navbar-brand {
-	font-weight: 700;
+	font-weight: 600;
 }
 
 .navbar-default .navbar-brand {
-	color: #53bef5;
+	color: white;
 }
 
 .navbar-default {
-	background-color: white;
+	background-color: #53bef5;
 	border-color: transparent;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #53bef5;
+	color: white;
 	background-color: transparent;
 	border-bottom: 2px solid #1abc9c
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #53bef5;
+	color: white;
 }
 
 /* ==========================================================================
@@ -95,6 +78,7 @@ h2 {
 
 #headerwrap {
 	background: url(../img/wireframe2.png) no-repeat center top;
+    
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
@@ -102,12 +86,10 @@ h2 {
 	background-position: center center;
 	min-height: 650px;
 	width: 100%;
-	
-    -webkit-background-size: 100%;
+	-webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
     background-size: 100%;
-
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -115,7 +97,7 @@ h2 {
 }
 
 #headerwrap h1 {
-	color:#ffffff;
+	color:#53bef5;
 	padding-top: 10px;
 	padding-bottom: 20px;
 	letter-spacing: 4px;
@@ -126,7 +108,7 @@ h2 {
 
 #headerwrap h4 {
 	font-weight: 400;
-	color: #ffffff;
+	color: #53bef5;
     text-shadow: 1px 2px black;
 }
 
@@ -298,8 +280,8 @@ h2 {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 16px;
+    font-weight: 200;
+    font-size: 12px;
     color: white;
 
     -webkit-font-smoothing: antialiased;
