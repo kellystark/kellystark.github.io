@@ -8,9 +8,21 @@ body {
     
 }
 
+p {
+    padding: 5vw;;
+    color: black;
+}
+
+li{
+    text-align: left;
+}
+
+.container p {
+    color: black;
+}
 
 
-/* ======================================================================== Navbar   ========================= */ 
+/* ======================================================================================== Navbar   ========================= */ 
 .header-nightsky .navbar-nav>li>a {
     color: white;
     font-size: 18px;
@@ -23,7 +35,7 @@ body {
     padding-bottom: 20px;
     width: 100%;
     border-bottom:none;
-    background-color: transparent;
+    background-color:rgba(255,255,255,0.5);
     min-width: 300px;
     border: none;
 }
@@ -70,7 +82,8 @@ body {
     color: #ccc;
 }
 
-/* ========================================================================   Navbar  ======================= */
+/* ===========================================================================================   Navbar  ======================= */
+
 
 
 /* Navbar small screen */
@@ -105,7 +118,7 @@ body {
 /* Navbar small screen */
 
 
-/* ====================================================================   Hero   ============================= */
+/* =========================================================================================   Hero   ============================= */
 .header-nightsky .hero {
     text-align: center;
     margin-top: 80px;
@@ -149,7 +162,6 @@ body {
     transform:translateY(1px);
 }
 
-
 video{
     position: fixed;
     right: 0;
@@ -168,7 +180,7 @@ video{
     width: 200px;
     height: 200px;
 }
-/* Hero */
+/* ========================================================================================   Hero   ============================= */
 
 
 /*   =========================================================================================   MainBox Front Page   ========================= */
@@ -228,66 +240,79 @@ video{
     padding: 10px;
 }
 
-
-
 /*   =========================================================================================   MainBox Front Page   ========================= */
 
 
+/*   =========================================================================================   About Page   ========================= */
 
+#aboutwrap {	
+	background: url(../img/flower.jpg) no-repeat center top;
+	margin-top: -110px;
+	padding-top: 250px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 550px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
 
-
-
-
-
-
-
-
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 #aboutpic {
     height: 25%;
     width:25%;
 }
 
-
-
-
-
-
-.container p {
-    color: black;
+.resume-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
 }
 
-
-
-li{
-    text-align: left;
+.flex-item {
+  background: tomato;
+  padding: 5px;
+  width: 75%;
+  height: 75%;
+  margin-top: 10px;
+  
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
 }
 
-p {
-    padding: 5vw;;
-    color: black;
+/*   =========================================================================================   About Page   ========================= */
+
+
+/*   =========================================================================================   Portfolio Section   ========================= */
+
+/* Gallery */
+.gallery {
+	margin-top: 30px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Portfolio Section */
+.gallery img:hover {
+	opacity: 0.4;
+}
 
  hr {
     display: block;
@@ -311,51 +336,15 @@ p {
 	margin-bottom: 80px;
 }
 
-/* Portfolio Section */
-
-
-
-
-/* Social Icons */
-
-#social {
-	padding-top: 50px;
-	padding-bottom: 50px;
-	background-color: #f2f2f2;
+.centered p {
+    padding: 0vw;
+    font-size: 14px;
+    margin: 
 }
-
-#social i {
-	font-size: 40px;
-	color: #53bef5;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#social i:hover {
-	color: #48dcdc
-}
-
-/* Social Icons */
-
-
-/* Footer */
-
-#footerwrap {
-	padding-top: 70px;
-	padding-bottom: 50px;
-	background-color: #2f2f2f;
-}
-
-#footerwrap p {
-	color: #f2f2f2;
-	margin-left: 10px;
-}
-
-/* Footer */
 
 #workwrap {	
 	background: url(../img/work.jpg) no-repeat center top;
-	margin-top: -70px;
+	margin-top: -110px;
 	padding-top: 250px;
 	text-align:center;
 	background-attachment: relative;
@@ -391,14 +380,18 @@ p {
     text-shadow: 1px 2px black;
 }
 
+/*   =========================================================================================   Portfolio Section   ========================= */
+
+/*   =========================================================================================   Digital Art Section   ========================= */
+
 #workwrap2 {	
-	background: url(../img/UXUI2.png) no-repeat center top;
-	margin-top: 0px;
+	background: url(../img/WHAT%20IF.jpg) no-repeat center top;
+	margin-top: -110px;
 	padding-top: 250px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 750px;
+	min-height: 650px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -410,6 +403,7 @@ p {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    text-shadow: 1px 2px black;
 }
 
 #workwrap2 h1 {
@@ -422,111 +416,10 @@ p {
     text-shadow: 1px 2px black;
 }
 
-#workwrap2 h4 {
+#workwrap h4 {
 	font-weight: 400;
 	color: #ffffff;
     text-shadow: 1px 2px black;
- }
-
-#aboutwrap {	
-	background: url(../img/flower.jpg) no-repeat center top;
-	margin-top: -70px;
-	padding-top: 250px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 550px;
-	width: 100%;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-
-/* Gallery */
-.gallery {
-	margin-top: 30px;
-}
-
-.gallery img:hover {
-	opacity: 0.4;
-}
-
-
-
-
-
-
-.centered p {
-    padding: 0vw;
-    font-size: 14px;
-    margin: 
-}
-
-.indBox h4 {
-    color: white;
-}
-
-#image1 {
-    max-width: 25%;
-    float: left;
-    padding: 20px;
-}
-
-#image2 {
-    max-width: 25%;
-    float: right;
-    padding: 20px;
-}
-
-
-
-#image4 {
-    max-width: 25%;
-    float: right;
-    padding: 20px;
-}
-#image5 {
-    max-width: 25%;
-    float: right;
-    padding: 20px;
-}
-#image6 {
-    max-width: 25%;
-    float: right;
-    padding: 20px;
-}
-#image7 {
-    max-width: 25%;
-    float: right;
-    padding: 20px;
-}
-#image8 {
-    max-width: 25%;
-    float: right;
-    padding: 20px;
-}
-#image9 {
-    max-width: 25%;
-    float: right;
-    padding: 20px;
-}
-#image10 {
-    max-width: 25%;
-    float: right;
-    padding: 20px;
-}
-#image11 {
-    max-width: 25%;
-    float: right;
-    padding: 20px;
 }
 
 header { 
@@ -552,40 +445,48 @@ header div img {
   height: auto; 
 }
 
+/*   =========================================================================================   Digital Art Section   ========================= */
 
-.resume-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
+
+/*   =========================================================================================   Social Icons   ========================= */
+
+#social {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #f2f2f2;
 }
 
-.flex-item {
-  background: tomato;
-  padding: 5px;
-  width: 75%;
-  height: 75%;
-  margin-top: 10px;
-  
-  line-height: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
+#social i {
+	font-size: 40px;
+	color: #53bef5;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+#social i:hover {
+	color: #48dcdc
+}
+
+/*   =========================================================================================   Social Icons   ========================= */
 
 
+/*   =========================================================================================   Footer   ========================= */
 
-/* Media Queries */
+#footerwrap {
+	padding-top: 70px;
+	padding-bottom: 50px;
+	background-color: #2f2f2f;
+}
+
+#footerwrap p {
+	color: #f2f2f2;
+	margin-left: 10px;
+}
+
+/*   =========================================================================================   Footer   ========================= */
+
+
+/*   =========================================================================================   Media Queries   ========================= */
 
 @media screen and (min-width: 600px) {
     body {
@@ -603,23 +504,11 @@ header div img {
     #image1 {
         max-width: 40%;
     }
-    #image2 {
-        max-width: 40%;
-    }
+   
     #image3 {
-        max-width: 60%;
+        max-width: 70%;
     }
-}
-
-@media only screen and (max-width: 600px) {
-    #image1 {
-        max-width: 50%;
+    #aboutpic {
+    max-width: 45%;
     }
-}
-
-@media only screen and (max-width: 400px) {
-    #image1 {
-        max-width: 50%;
-    }
-    
 }
