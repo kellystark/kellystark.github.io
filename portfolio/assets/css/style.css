@@ -170,7 +170,7 @@ video{
     min-height: 100%;
     width: auto;
     height: auto;
-    background: url(images/wireframe2.png) no-repeat;
+    background: url(../img/wireframe2.png) no-repeat;
     background-size: cover;
     z-index: -1;
 }
