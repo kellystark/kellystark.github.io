@@ -61,14 +61,17 @@
             <div class="btn btn-primary"><a href="about.html">Learn more about me</a></div>
             <div class="btn btn-primary"><a href="about.html">Contact me</a></div>
         </div>
-        <video id="myVideo" autoplay="true" loop>
-            <source src="assets/img/Sketch%20-%201038.mp4" type="video/mp4">
-        </video>
-        <div class="myButton"></div>
-    </div>
+          <div id="cent">          
+                <button id="buttdesign" onclick="playVid()" type="button">Play Video</button>
+                
+
+                <video id="myVideo" autoplay="true" loop>
+                    <source src="assets/img/Sketch%20-%201038.mp4" type="video/mp4">
+                </video>
+          </div>
+      </div>
     <!-- Navbar & Hero -->
-      
-      
+    
       <div class="mainBox">
             <div class="background">
                 <div class="indBox">
@@ -144,5 +147,15 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+      
+      <script> 
+        var vid = document.getElementById("myVideo"); 
+
+        function playVid() { 
+            vid.play(); 
+        } 
+ 
+        </script>
+      
   </body>
 </html>
