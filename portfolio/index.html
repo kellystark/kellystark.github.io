@@ -1,82 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Arizonia" rel="stylesheet">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="shortcut icon" href="assets/ico/favicon.ico">
+        <link href="https://fonts.googleapis.com/css?family=Arizonia" rel="stylesheet">
 
-    <title>Kelly Stark UX/UI Designer</title>
+        <title>Kelly Stark UX/UI Designer</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
+        <!-- Bootstrap core CSS -->
+        <link href="assets/css/bootstrap.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-      <script src="https://use.fontawesome.com/85fc131117.js"></script>
-
+        <!-- Custom styles for this template -->
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+          <script src="https://use.fontawesome.com/85fc131117.js"></script>
   </head>
 
   <body>
-
-    <!-- Static navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html"></a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-              <li><a href="resume.html">Resume</a></li>
-              <li><a href="uxprocess.html">UX Process</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
       
-	<div id="headerwrap">
-	    <div class="container">
-            <div class="row">
-				<div class="col-lg-6 col-lg-offset-3">
-					
-					<h1>Kelly Stark</h1>
-					<h4>UX/UI DESIGNER & FRONT-END DEVELOPER</h4>
-				</div>
-			</div>
-	    </div> 
-	</div>
-        <div class="mainBox">
+      <!-- Navbar & Hero -->
+      <div class="header-nightsky">
+          <nav class="navbar navbar-default">
+              <div class="container">
+                  <a class="navbar-brand" href="#"></a>
+                  <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                    </button>
+                    </div>
+                  <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li class="dropdown">
+                            <ul class="dropdown-menu">
+                                <li><a href="about.html">BIO</a></li>
+                                <li><a href="resume.html">RESUME</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">PORTFOLIO <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="portfolio.html">Websites Portfolio</a></li>
+                                <li><a href="digitalArt.html">Digital Art</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="hero">
+            <h1>Kelly Stark</h1>
+            <p>UX/UI Designer and Front-end Developer</p>
+            <div class="btn btn-primary"><a href="about.html">Learn more about me</a></div>
+            <div class="btn btn-primary"><a href="about.html">Contact me</a></div>
+        </div>
+        <video id="myVideo" autoplay="true" loop>
+            <source src="assets/img/Sketch%20-%201038.mp4" type="video/mp4">
+        </video>
+        <div class="myButton"></div>
+    </div>
+    <!-- Navbar & Hero -->
+      
+      
+      <div class="mainBox">
             <div class="background">
                 <div class="indBox">
-                    <img id="image1" src="../portfolio/assets/img/ux%20design.png"/>
-                    
-                    <p>(UX) User Experience Design, combines research, psychology and design to produce a product that is not only pleasing to the user, but also user friendly.</p>
-                </div>
-                <div class="indBox">
-                    <img id="image2" src="../portfolio/assets/img/ui%20design.png"/>
-                    
-                    <p>(UI) User Interface Design, uses technical ability, understanding of HTML/CSS/jQuery/JavaScript, and design, to produce an end product that is not only capable of functioning in a browser/device, but is also asthetically pleasing to the eye.</p>
-                </div>
-                <div class="indBox">
                     <img id="image3" src="../portfolio/assets/img/uxandui.png"/>
+                    <p>User Experience Design, combines research, psychology and design to produce a product that is not only pleasing to the user, but also user friendly.</p>
+                    <p>User Interface Design, uses technical ability, understanding of HTML/CSS/jQuery/JavaScript, and design, to produce an end product that is not only capable of functioning in a browser/device, but is also asthetically pleasing to the eye.</p>
                     
                     <p>Combine these two, UX and UI, toward the process of web development, and the end result will be UX-traordinary.</p>
                 </div>
             </div>
         </div>
+      
+      
 	
 	<section id="works"></section>
 	<div class="container">
