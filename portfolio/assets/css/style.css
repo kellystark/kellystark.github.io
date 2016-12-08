@@ -24,18 +24,18 @@ li{
 
 /* ======================================================================================== Navbar   ========================= */ 
 .header-nightsky .navbar-nav>li>a {
-    color: white;
+    color: #53bef5;
     font-size: 18px;
     border-radius: 10px;
 }
 
 .header-nightsky .navbar {
     margin-bottom: 0px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     width: 100%;
     border-bottom:none;
-    background-color:rgba(255,255,255,0.5);
+    background-color: transparent;
     min-width: 300px;
     border: none;
 }
@@ -43,13 +43,13 @@ li{
 .header-nightsky .navbar-default .navbar-nav>.open>a,
 .header-nightsky .navbar-default .navbar-nav>.open>a:focus,
 .header-nightsky .navbar-default .navbar-nav>.open>a:hover {
-    color: #ccc;
+    color: #dcf2fd;
     background-color: transparent;
 }
 
 .header-nightsky .nav>li>a:focus,
 .header-nightsky .nav>li>a:hover {
-    color: #ccc;
+    color: #dcf2fd;
     background-color: transparent;
 }
 
@@ -64,15 +64,15 @@ li{
 .header-nightsky .navbar-toggle {
     background-color: transparent !important;
     margin-top: 20px;
-    border: 1px solid #fff;
+    border: 1px solid #53bef5;
 }
 
 .header-nightsky .navbar-toggle .icon-bar {
-    background-color: white;
+    background-color: #53bef5;
 }
 
 .header-nightsky .navbar-brand {
-    color: white;
+    color: #53bef5;
     font-size: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -91,12 +91,12 @@ li{
 @media screen and (max-width: 767px) {
 
     .header-nightsky .navbar-default .navbar-nav .open .dropdown-menu>li>a{
-        color: #fff;
+        color: #dcf2fd;
         font-size: 16px;
     }
 
     .header-nightsky .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
-        color: #ccc;
+        color: #dcf2fd;
     }
 
     .header-nightsky .navbar-collapse {
