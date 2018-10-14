@@ -1,0 +1,534 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, 
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+}
+
+header {
+	padding: 2vh;
+    background-color: #95dbd9;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+footer {
+	padding: 20px 30px;
+	background-color: #95dbd9;
+}
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	background: #cedfe4;
+}
+
+.style-logo {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 192px;
+}
+
+.style-nav ul {
+	list-style-type: none;
+}
+
+.style-nav ul li a {
+	text-decoration: none;
+	color: #2F322A;
+	text-align: center;
+	display: block;
+	text-transform: uppercase;
+	padding: 8px;
+}
+
+.hero {
+	background-image: url(images/Preordained%20Series.jpg);
+	background-size: cover;
+    padding: 40px 40px 380px 40px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+h1 {
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: 200;
+	margin-bottom: 1vh;
+    color: white;
+}
+
+h2 {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: 200;
+	margin-bottom: 23px;
+    color: white;
+}
+
+h3 {
+	font-size: 1.2em;
+	text-transform: uppercase;
+	font-weight: 200;
+	margin-bottom: 120px;
+    color: white;
+    
+}
+
+h4 {
+	font-size: 16px;
+	font-weight: 200;
+	margin-bottom: 35px;
+}
+
+p {
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 35px;
+    color: white;
+    
+}
+
+p#info {
+	margin-top: -80px;
+    
+}
+
+.button {
+	border: 2px #FFFFFF solid;
+	padding: 8px 30px;
+	border-radius: 30px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.info-box-tan {
+	background-color: #b9a88e;
+	color: #FFFFFF;
+	padding: 30px 20px 60px;
+	text-align: center;
+}
+
+.info-box-dark {
+	background-color: #2D2D35;
+	color: #FFFFFF;
+	padding: 30px 20px 60px;
+	text-align: center;
+}
+
+.footer-text {
+	font-size: 13px;
+	margin-bottom: 20px;
+    text-align: center;
+}
+
+.col {
+	width: 100%;
+}
+
+.row:before, .row:after {
+	content: "";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+.divider {
+    margin-top: -20px;
+    background-color: #95dbd9;
+    height: 30vh;
+    width: 100%;
+}
+
+/* Flex About Page */
+.wrap {
+    display:flex;
+    flex: 1;
+    padding:30px;
+    background-color: #b9a88e;
+}
+
+.box {
+	flex:1;
+}
+
+.box2{
+    flex:2 0 0
+}
+
+
+.box img{
+    float:left;
+    margin:0 10px 10px 0;
+    max-width:30%;
+    height:auto;
+    padding: 10px;
+}
+
+main#3 {
+    background-color: #2D2D35;
+    
+}
+.wrap2 {
+    display:flex;
+    flex: 1;
+    padding:30px;
+    background-color: #2D2D35;
+    margin-top: 12px;
+}
+
+/* Flex About Page */
+
+
+/* Books Page */
+
+.background {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizonal;
+    flex-direction: row;
+    
+    -wekit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    justify-content: center;
+    
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+    align-items: center;
+    background: #cedfe4
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.indBox {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 10px;
+    margin: 10px;
+    background-color: #cedfe4;
+    text-align: center;
+}
+
+#image1 {
+    max-width: 40%;
+    float: left;
+    padding: 2vw;
+}
+
+/* Books Page */
+
+/* Contact Form */
+
+.footer-distributed{
+	background-color: #2D2D35;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	padding: 50px 60px 40px;
+	margin-top: 5px;
+	overflow: hidden;
+    font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	float: left;
+}
+
+/* The company logo */
+
+            .footer-distributed h3 span{
+                color:  #5383d3;
+            }
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+            .footer-distributed .footer-company-name{
+                color:  #8f9296;
+                font-size: 14px;
+                font-weight: normal;
+                margin: 0;
+            }
+
+/* Footer social icons */
+
+.footer-distributed .footer-icons{
+	margin-top: 40px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #95dbd9;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	float: right;
+}
+
+.footer-distributed .footer-right p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 42px 0 0;
+	color: #ffffff;
+}
+
+/* The contact form */
+
+.footer-distributed form{
+	display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #1f2022;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+	width: 400px;
+	padding: 18px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+	color:  #5c666b;
+}
+
+.footer-distributed ::-moz-placeholder {
+	color:  #5c666b;
+	opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+
+.footer-distributed form input{
+	height: 55px;
+	margin-bottom: 15px;
+}
+
+.footer-distributed form textarea{
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.footer-distributed form button{
+	border-radius: 3px;
+	background-color:  #95dbd9;
+	color: #ffffff;
+	border: 0;
+	padding: 15px 50px;
+	font-weight: bold;
+	float: right;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+
+	.footer-distributed {
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-distributed form input,
+	.footer-distributed form textarea{
+		width: 250px;
+	}
+
+	.footer-distributed form button{
+		padding: 10px 35px;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+	.footer-distributed{
+		padding: 30px;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.footer-distributed .footer-left{
+		margin-bottom: 40px;
+	}
+
+	.footer-distributed form{
+		margin-top: 30px;
+	}
+
+	.footer-distributed form{
+		display: block;
+	}
+
+	.footer-distributed form button{
+		float: none;
+	}
+}
+
+
+
+/* contact Form */
+
+
+
+
+/*Tablet View*/
+
+@media (min-width: 768px){
+	
+	body {
+		max-width: 778px;
+	}
+	
+	.style-nav ul li {
+		display: inline-block;
+	}
+	
+	.style-nav ul {
+		text-align: center;
+	}
+	
+	h1 {
+		font-size: 3em;
+		margin-bottom: 90px;
+        margin-top: 3vh;
+        margin-bottom: 2vh;
+	}
+	
+	h2 {
+		margin-bottom: 2vh;
+	}
+	
+	.col-md-one-half {
+		width: 50%;
+	}
+	
+	.col {
+		float: left;
+		padding: 0px 7px 14px;
+	}
+    
+    .about-text, section img {
+        float: left;
+    }
+    
+    .about-text {
+        margin-left: 5%;
+        width: 60%;
+    }
+    
+    section img {
+        width: 25%;
+        float: left;
+    }
+    
+    .hero {
+	background-image: url(images/Preordained%20Series.jpg);
+	background-size: cover;
+    padding: 10px 10px 280px 10px;
+	color: #FFFFFF;
+	text-align: center;
+    }
+    .col-lg-one-fourth {
+		width: 33.33%;
+	}
+    .box img{
+    padding: 10px;
+    }
+}
+
+/*Desktop View*/
+
+@media (min-width: 1024px){
+	
+	body {
+		max-width: 1200px;
+	}
+    
+	.style-logo {
+		float: left;
+	}
+	
+	.style-nav {
+		float: right;
+	}
+	
+	.col-lg-one-fourth {
+		width: 33.33%;
+	}
+    
+    .hero {
+	background-image: url(images/Preordained%20Series.jpg);
+	background-size: cover;
+    padding: 40px 40px 380px 40px;
+	color: #FFFFFF;
+	text-align: center;
+    }
+}
+
