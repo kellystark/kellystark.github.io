@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Kelly Stark Author</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="contactform.php">
+    </head>
+
+    <body>
+        <header>
+            <div class="row">
+                <div class="col">
+                    <img class="style-logo" src="images/logo3.png" alt="Prism Logo">
+                    <nav class="style-nav">
+                        <ul>
+                            <li><a href="#1">Home</a></li>
+                            <li><a href="#2">About</a></li>
+                            <li><a href="books.html">Books</a></li>
+                            <li><a href="#3">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main id="1">
+            <div class="row">
+                <div class="col">
+                    <div class="hero">
+                        <h3>The Preordained Trilogy</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-md-one-half">
+                    <div class="info-box-tan">
+                        <h2>Captivating Reads</h2>
+                        <p>The Preordained Trilogy will capture you with its allure and mystery.</p>
+                        <a href="https://www.amazon.com/Preordained-Trilogy-Book-One-ebook/dp/B004L62J3A/ref=sr_1_1_twi_kin_2?ie=UTF8&qid=1480654276&sr=8-1&keywords=kelly+stark" target="_blank"  class="button">Purchase</a>
+                    </div>
+                </div>
+                <div class="col col-md-one-half">
+                    <div class="info-box-dark">
+                        <h2>Coming Soon</h2>
+                        <p>Avowed<br /> Book three of the trilogy.</p>
+                        <a href="" class="button">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-md-one-half col-lg-one-fourth">
+                    <a href="books.html"><img src="images/Preordained%20Ebook%20Cover.jpg" alt=""></a></div>
+                <div class="col col-md-one-half col-lg-one-fourth"><a href="books.html"><img src="images/Predestined%20Ebook%20Cover.jpg" alt=""></a></div>
+                <div class="col col-md-one-half col-lg-one-fourth"><a href="books.html"></a><img src="images/Avowed%20Ebook%20Cover.jpg" alt=""></div>
+            </div>
+        </main>
+        <main id="2">
+            <div class="wrap">
+                <div class="box">
+
+                <div class="box box2"><img src="images/portfolioPicture.jpg">
+                    <h1>Kelly Stark</h1>
+                    <h3>Author</h3>
+                    <p id="info">Kelly is a UX/UI Designer and Front-end Web Developer who loves to learn and create. With her freetime she writes supernatural/gothic/dark fantasy novels.</p>
+                </div>
+                </div>
+            </div>
+        </main>
+        <main id="3">
+            <div class="wrap2">
+                <div class="box">
+                    <footer class="footer-distributed">
+                        <div class="footer-left">
+                            <p class="footer-links">
+                                <a href="#1">Home</a>
+                                ·
+                                <a href="#2">About</a>
+                                ·
+                                <a href="books.html">Books</a>
+                            </p>
+                            <div class="footer-icons">
+                                <a href="https://www.twitter.com/Kelly_S_Stark" target="_blank"><i class="fa fa-twitter"></i></a>
+                                <a href="http://www.kellystark.deviantart.com" target="_blank"><i class="fa fa-deviantart"></i></a>
+                                
+                            </div>
+                        </div>
+                        <div class="footer-right">
+                            <p>Contact Kelly</p>
+                            <form action method="POST" enctype="multipart/form-data">
+                                <input type="hidden" name="action" value="submit">
+                                <br>
+                                <input name="name" type="text" placeholder="name" value size="30">
+                                <br>
+                                <br>
+                                <input name="email" type="text" placeholder="Email" value size="30">
+                                <br>
+                                <br>
+                                <textarea name="message" placeholder="message" rows="7" cols="30"></textarea>
+                                <br>
+                                <input type="submit" value="Send email">
+                            </form>
+                        </div>
+                  </footer>
+                </div>
+            </div>
+        </main>
+        
+
+        <footer>
+            <div class="row">
+                <div class="col">
+                    <p class="footer-text">©2016 Kelly Stark All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+
+            <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+                <script>$(document).ready(function(){
+                  $('.style-nav li a').click(function() {
+                    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+                    && location.hostname == this.hostname) {
+                      var $target = $(this.hash);
+                      $target = $target.length && $target
+                      || $('[name=' + this.hash.slice(1) +']');
+                      if ($target.length) {
+                        var targetOffset = $target.offset().top;
+                        $('html,body')
+                        .animate({scrollTop: targetOffset}, 2000);
+                       return false;
+                      }
+                    }
+                  });
+                });
+            </script>
+
+    </body>
+</html>
